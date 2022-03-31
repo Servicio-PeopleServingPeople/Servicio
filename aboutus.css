@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "poppins",sans-serif;
+  padding: 0;
+
+}
+
+.header{
+	font-family: "Poppins", "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img1.jpg);
+    background-position: center;
+    background-size: cover; */
+    background-color: black;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+      height: 108px;
+
+    /* width: 25vh; */
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: rgb(126, 126, 223);
+}
+
+body {
+  /* font-family: "poppins", sans-serif; */
+  /* font-weight: 200; */
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.whoarewe {
+  background: black;
+  width: 1000px auto;
+  height: 270px;
+  margin: 100px auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* font-family: "poppins", sans-serif; */
+  box-shadow: -8px 20px 40px rgba(0, 0, 0, 0.322);
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.whoarewe .box h2,
+p {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  transform: scale(0.9);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.whoarewe::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 10px solid rgb(185, 182, 182);
+  border-left: 10px solid rgb(185, 182, 182);
+  opacity: 0;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.whoarewe::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  bottom: 0;
+  right: 0;
+  border-bottom: 10px solid rgb(185, 182, 182);
+  border-right: 10px solid rgb(185, 182, 182);
+  opacity: 0;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.whoarewe:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.whoarewe:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.whoarewe:hover h2 {
+  transform: scale(1);
+}
+.whoarewe:hover p {
+  transform: scale(1);
+}
+
+.contentbox2 {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contentbox2 .heading2 {
+  font-size: 40px;
+}
+
+.wrapper {
+  margin-top: 5%;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.team .member {
+  background-color: rgb(255, 255, 255);
+  margin: 15px;
+  margin-bottom: 30px;
+  width: 500px;
+  box-shadow: -5px 15px 30px rgba(0, 0, 0, 0.322);
+  box-sizing: border-box;
+  line-height: 30px;
+  position: relative;
+  transition: 0.5s;
+  font-weight:400;
+
+}
+
+
+.team .member h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #000;
+}
+.team .member .memberimg img {
+  width: 200px;
+  border-radius: 4000px;
+}
+.team .member p {
+  color: black;
+  font-size: 19px;
+}
+
+.team .member1:hover {
+  background-image: linear-gradient(
+    268deg,
+    rgba(44, 35, 175, 0.84) 2.3%,
+    rgba(98, 219, 205, 1) 81.4%
+  );
+}
+
+.team .member2:hover {
+  background-image: radial-gradient(
+    circle farthest-corner at 31.6% 67.3%,
+    rgba(223, 143, 143, 1) 52.4%,
+    rgba(251, 114, 114, 1) 74.2%
+  );
+}
+
+.team .member3:hover {
+  background-image: linear-gradient(
+    110.6deg,
+    rgba(161, 9, 43, 1) 1.4%,
+    rgba(254, 71, 11, 1) 89.2%
+  );
+}
+
+.team .member4:hover {
+  background-image: linear-gradient(
+    89.9deg,
+    rgba(255, 163, 139, 1) -30.8%,
+    rgba(0, 47, 108, 1) 109.9%
+  );
+}
+
+.linkedin {
+  background-color: rgba(0, 0, 0, 0.863);
+  height: 50px;
+}
+
+.linkedin i{
+  margin-top: 9px;
+justify-content: center;
+}
+.linkedin a {
+  color: white;
+  border-radius: 4px;
+  font-size: 30px;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+}
+
+.linkedin a:hover{
+  color: rgb(15, 54, 161);
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #fff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .slideshow-items-text {
+    max-width: 70%;
+    padding: 5rem 1rem;
+  }
+  .slideshow-items-text h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .whoarewe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+ 
+  .whoarewe {
+    width: 100%;
+    height: 100%;
+  }
+  .contentbox2 {
+    width: 100%;
+  }
+
+  .contentbox2 .team .member {
+    width: 300px;
+    line-height: 25px;
+  }
+  .contentbox2 .team .member {
+    font-size: 20px;
+  }
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+.whoarewe {
+    width: 100%;
+    height: 100%;
+    /* font-size: 14px; */
+  }
+}

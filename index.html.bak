@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Servicio - Home</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+   
+    <link rel="stylesheet" href="homestyle.css" />
+    <!-- <link href="https://fontawesome.com/v4.7/icons/"> -->
+    <!--footer icons-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+  <body>
+  <header>
+   <div class="header">
+        <div class="navbar">
+            <img src="images/header.png" alt="" class="logo">
+			
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="login.html">Sign In/Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+	</header>
+  
+    <main>
+       <div class="container1">
+        <div class="slideshow">
+          <div class="slideshow-items">
+            <img src="images/food1.jpg" alt="" />
+            <div class="slideshow-items-text">
+              <h3>"People Serving People"</h3>
+              <p>
+                Do you ever think how many people suffer because of hunger? 45%
+                of all child deaths worldwide are from causes related to
+                undernutrition(WHO). It's affecting the kids most as they
+                are in the stage of growing and developing. We can all stop
+                world hunger together by donating food to charities and
+                organisations that work to prevent world hunger.
+              </p>
+            </div>
+          </div>
+          <div class="slideshow-items">
+            <img src="images/beach1.jpg" alt="" />
+            <div class="slideshow-items-text">
+              <h3>"People Serving People"</h3>
+              <p>
+                Over the past few years, the world has woken up to horrifying headlines about sea life that has unfortunately died due to consuming 
+                or being trapped by the waste we throw in the oceans. 
+                Beaches are diverse, natural treasures that are here for all of us to explore and enjoy. 
+                Unfortunately, trash on our beaches jeopardizes these shared natural treasures. 
+                By cleaning up the beaches, people from all over the world can enjoy beaches fully.
+              </p>
+            </div>
+          </div>
+          <div class="slideshow-items">
+            <img src="images/3.jpg" alt="" />
+            <div class="slideshow-items-text">
+              <h3>"People Serving People"</h3>
+              <p>
+                Garbage Cleanup is a much-needed service that not only protects the public but safeguards the environment from the harmful effects of solid waste. Proper garbage collection and disposal facilitates improved recycling, lessens the impact on landfills, and protects the environment through effectively controlling the pollutants and contaminants that are released.
+              </p>
+            </div>
+          </div>
+          <div class="slideshow-items">
+            <img src="images/healthcare1.jpg" alt="" />
+            <div class="slideshow-items-text">
+              <h3>"People Serving People"</h3>
+              <p>
+                Currently, at least half of the people in the world do not receive the health services they need. About 100 million people are pushed into extreme poverty each year because of out-of-pocket spending on health. This must change.
+                To make health for all a reality, we need: individuals and communities who have access to high quality health services so that they take care of their own health and the health of their families; skilled health workers providing quality, people-centred care; and policy-makers committed to investing in universal health coverage.
+              </p>
+            </div>
+          </div>
+          <div class="slideshow-items">
+            <img src="images/tution1.jpg" alt="" />
+            <div class="slideshow-items-text">
+              <h3>"People Serving People"</h3>
+              <p>
+                As every child deserves to have access to good quality education
+                so we are helping poor children to achieve their dreams in every
+                possible way.
+              </p>
+              <p>
+                Our work is leading the way in improving literacy, helping
+                children to learn and teachers to teach.
+              </p>
+              <p>Make a difference by giving children the gift of education.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="headingservices">
+          <h2>Our Services</h2>
+        </div>
+      </div>
+      <div class="servicecontainer1">
+        <div class="container3">
+          <div class="card card1">
+            <div class="face face1">
+              <div class="content">
+                <img src="Images/f.png" alt="" class="img1" />
+                <h3>Food Providers</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>Donate</p>
+                <p>
+                  Please Consider donating to contribute to our extremely
+                  effective way to provide food to help the vulnerable people
+                  who are constantly struggling.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card2">
+            <div class="face face1">
+              <div class="content">
+                <img src="Images/g.png" alt="" class="img2" />
+                <h3>Garbage Cleanup</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>
+                  Please consider donating to garbage cleanups. It's our responsibility to help ensure clean, sanitary communities, and to conserve resources.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card3">
+            <div class="face face1">
+              <div class="content">
+                <img src="Images/r.png" alt="" class="img3" />
+                <h3>Beach Cleanup</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>
+                  Please consider donating to beach clean-ups. It's a great way to contribute in saving our environment. It is beneficial, not only to marine life, but also to all humans, to remove as much plastic as possible from the ocean while we still can.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="servicecontainer2">
+        <div class="container3">
+          <div class="card card4">
+            <div class="face face1">
+              <div class="content">
+                <img src="Images/t.png" alt="" class="img3" />
+                <h3>Free Tution</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>Donate</p>
+                <p>
+                  Please Consider donating to contribute to our extremely
+                  effective way to provide free education to help
+                  vulnerable children who are constantly struggling to acheive their goals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card card5">
+            <div class="face face1">
+              <div class="content">
+                <img src="Images/h.png" alt="" class="img4" />
+                <h3>Health Care</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>Donate</p>
+                <p>
+                  Please Consider donating to contribute to our extremely
+                  effective way to provide free healthcare to the people who are vulnerable and couldn't afford health treatments. You can save lives and build healthier communities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container5">
+        <section>
+          <div class="left">
+            <!-- <img src="images/6.png" alt=""> -->
+          </div>
+          <div class="right">
+            <div class="contentmission">
+              <h1>Our Mission</h1>
+              <p>
+                Millions of poor people are suffering and are unable to provide
+                food, education and better life to their children and family
+                members.
+              </p>
+              <p>
+                This project is an initiative for providing the gift of
+                education, food, a clean environment for our people in need. We
+                connect people to serve people who wants and who needs them.
+              </p>
+              <p>
+                With the generous support of people like you, we help in saving
+                lives, providing food and customary needs to families and
+                education to unprivileged children.
+              </p>
+              <p>
+                Our motto is to lend our support to everyone in need to ensure a
+                better life for them.
+                <br />
+                Time to act and help.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+	
+	<br>
+	<br>
+  
+    <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Servicio</h4>
+  	 			<ul>
+  	 				<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+  	 				<li><a href="services.html">Services</a></li>
+  	 				<li><a href="contact.html">Contact Us</a></li>
+  	 				<li><a href="donate.html">Donate</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Our Services</h4>
+  	 			<ul>
+  	 				<li><a href="services.html">Food Providers</a></li>
+  	 				<li><a href="services.html">Garbage Cleanup</a></li>
+  	 				<li><a href="services.html">River/Lake Cleanup</a></li>
+  	 				<li><a href="services.html">Free Tution</a></li>
+  	 				<li><a href="services.html">Healthcare</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Areas of Service</h4>
+  	 			<ul>
+  	 				<li><a href="#">Aligarh</a></li>
+  	 				<li><a href="#">Delhi</a></li>
+  	 				<li><a href="#">Firozabad</a></li>
+  	 				<li><a href="#">Lucknow</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/Servicio-101300235880180"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/Servici29628754"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/servicio_group/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/serviciogroup"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+    
+  </div>
+  </body>
+</html>

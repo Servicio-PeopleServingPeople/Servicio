@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Servicio - Donate</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="donate.css">
+	<!--footer icons-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+   <div class="header">
+        <div class="navbar">
+            <img src="images/header.png" alt="" class="logo">
+			
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="login.html">Sign In/Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+	</header>
+    
+<div class="cont">
+
+    <h1 class="heading">Donate to us</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <h3>Money</h3>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <h3>Clothes</h3>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <h3>Food</h3>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-4.png" alt="">
+            <h3>Stationary</h3>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-5.png" alt="">
+            <h3>Footwear</h3>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-6.png" alt="">
+            <h3>Gadgets</h3>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+
+    </div>
+
+</div>
+
+ <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Servicio</h4>
+  	 			<ul>
+  	 				<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+  	 				<li><a href="services.html">Services</a></li>
+  	 				<li><a href="contact.html">Contact Us</a></li>
+  	 				<li><a href="donate.html">Donate</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Our Services</h4>
+  	 			<ul>
+  	 				<li><a href="services.html">Food Providers</a></li>
+  	 				<li><a href="services.html">Garbage Cleanup</a></li>
+  	 				<li><a href="services.html">River/Lake Cleanup</a></li>
+  	 				<li><a href="services.html">Free Tution</a></li>
+  	 				<li><a href="services.html">Healthcare</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Areas of Service</h4>
+  	 			<ul>
+  	 				<li><a href="#">Aligarh</a></li>
+  	 				<li><a href="#">Delhi</a></li>
+  	 				<li><a href="#">Firozabad</a></li>
+  	 				<li><a href="#">Lucknow</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/Servicio-101300235880180"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/servicio_group/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/serviciogroup"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</body>
+</html>

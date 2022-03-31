@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img1.jpg);
+    background-position: center;
+    background-size: cover; */
+  background-color: black;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.navbar {
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 108px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: rgb(126, 126, 223);
+}
+
+body {
+  background-color: #fff;
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 30px 50px;
+  display: grid;
+}
+.wrapper .Services {
+  height: 180px;
+  justify-content: space-between;
+  background-color: #333;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 2px #000;
+  overflow: hidden;
+}
+.wrapper .Services .radio_wrap {
+  margin-right: 15px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 22px;
+  margin-top: 20px;
+}
+
+.wrapper .Services .radio_wrap input:checked + .radio_mark {
+  color: rgb(22, 10, 71);
+}
+
+.wrapper .Services span {
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .Services span p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.wrapper .Services .radio_wrap input:checked + .radio_mark p {
+  color: rgb(26, 214, 199);
+}
+.pictures {
+  height: 110px;
+  width: 150px;
+}
+
+.img1 {
+  width: 120px;
+}
+
+.wrapper .content {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+/* .website a p {
+  margin-left: 5px;
+} */
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cards {
+  width: 270px;
+  height: 300px;
+  margin-right: 55px;
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.cardheader {
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.cardheader .name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 1px auto 2px;
+}
+
+.cardheader .desc {
+  font-size: 15px;
+  font-style: bold;
+  margin: 7px auto 6px;
+}
+
+.sm {
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+/* .icon {
+  color: #fff;
+} */
+.sm a {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.sm a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.cardfooter .cardcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 9px;
+}
+.cardfooter .cardcontent .itemleft {
+  color: white;
+  margin-bottom: 5px;
+}
+.cardfooter .cardcontent .itemsright {
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.verifiedbtn {
+  display: inline-block;
+  background: hsl(120, 42%, 52%);
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid hsl(120, 42%, 45%);
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.623);
+  margin-top: 15px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.container .foodcard:hover {
+  background: hsl(34, 90%, 30%);
+}
+.container .beachcard:hover {
+  background: hsl(204, 90%, 30%);
+}
+.container .tutioncard:hover {
+  background: hsl(9, 82%, 37%);
+}
+.container .garbagecard:hover {
+  background: hsl(152, 83%, 25%);
+}
+.container .Healthcard:hover {
+  background: hsl(345, 52%, 48%);
+}
+.cont {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #000;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: -5px 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #fff;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  /* font-size: 10px; */
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .wrapper {
+    height: auto;
+    justify-content: center;
+  }
+  .wrapper .Services {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+
+  .wrapper .Services .radio_wrap {
+    display: grid;
+    cursor: pointer;
+  }
+
+  .container {
+    display: grid;
+    justify-content: center;
+  }
+
+  .cardfooter {
+    margin-bottom: 10px;
+  }
+  .cards {
+    margin-top: 45px;
+  }
+
+  /* .footer {
+    padding: 70px 12px;
+  } */
+
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .cardsheader {
+    width: 100%;
+    /* margin-bottom: 4px; */
+  }
+
+  .cardfooter {
+    width: 100%;
+  }
+  /* .wrapper .Services span p {
+    font-size: 5px;
+  } */
+
+  .footer-col {
+    width: 100%;
+  }
+}

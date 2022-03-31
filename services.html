@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="services.css" />
+    <script
+      src="https://kit.fontawesome.com/a38ceb11d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".content .radio_content").hide();
+        $(".content .radio_content:first-child").show();
+        $(".radio_wrap").click(function () {
+          var current_radio = $(this).attr("data-radio");
+          $(".content .radio_content").hide();
+
+          $("." + current_radio).show();
+        });
+      });
+    </script>
+    <title>Servicio - Services</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+  </head>
+  <body>
+  <header>
+   <div class="header">
+        <div class="navbar">
+            <img src="images/header.png" alt="" class="logo">
+			
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="login.html">Sign In/Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+	</header>
+    
+    <main>
+      <div class="wrapper">
+        <div class="Services">
+          <label class="radio_wrap" data-radio="radio_1">
+            <input type="radio" name="service" class="input" />
+            <span class="radio_mark">
+              <img src="images/f.png " class="img1 pictures" />
+              <p>Food Providers</p>
+            </span>
+          </label>
+          <label class="radio_wrap" data-radio="radio_2">
+            <input type="radio" name="service" class="input" />
+            <span class="radio_mark">
+              <img src="images/r.png" class="pictures"/>
+              <p>River/Lake/Beach Cleanup</p>
+            </span>
+          </label>
+          <label class="radio_wrap" data-radio="radio_3">
+            <input type="radio" name="service" class="input" />
+
+            <span class="radio_mark">
+              <img src="images/t.png " class="img2 pictures" />
+              <p>Free Tution</p>
+            </span>
+          </label>
+          <label class="radio_wrap" data-radio="radio_4">
+            <input type="radio" name="service" class="input" />
+
+            <span class="radio_mark">
+              <img src="images/g.png" class="pictures" />
+              <p>Garbage Cleanup</p>
+            </span>
+          </label>
+          <label class="radio_wrap" data-radio="radio_5">
+            <input type="radio" name="service" class="input" />
+
+            <span class="radio_mark">
+              <img src="images/h.png" class="pictures" />
+              <p>Health care</p>
+            </span>
+          </label>
+        </div>
+        <div class="content">
+          <div class="radio_content radio_1">
+            <div class="container">
+              <div class="cards foodcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Feed The Poor Campaign </h3></div>
+                  <div class="desc">Food Provider</div>
+                  <div class="sm">
+                    <a href="https://feedthepoorcampaign.business.site/"
+                      >https://feedthepoorcampaign.business.site/</a
+                    >
+                  </div>
+
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    9634567824</div>
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Aligarh</p>
+                      <p>Aligarh</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards foodcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Sahyog Seva Sansthan</h3></div>
+                  <div class="desc">Food Provider</div>
+                  <div class="sm">
+                    <a href="http://www.sahyogsevasansthan.org/"
+                      >http://www.sahyogsevasansthan.org/</a
+                    >
+                  </div>
+
+                 <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +919457056474</div>
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Firozabad</p>
+                      <p>Firozabad</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards foodcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Vigyaan Foundation</h3></div>
+                  <div class="desc">Food Provider</div>
+                  <div class="sm">
+                    <a href="https://www.vigyanfoundation.org/">https://www.vigyanfoundation.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    0522-4012879</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Lucknow</p>
+                      <p>Lucknow, Allahabad, Kanpur</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="radio_content radio_2">
+            <div class="container">
+              <div class="cards beachcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Swapna Foundation</h3></div>
+                  <div class="desc">River/Lake Cleanup</div>
+                  <div class="sm">
+                    <a href="http://www.ourswapna.org/">http://www.ourswapna.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    -----</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Lucknow</p>
+                      <p>Lucknow</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards beachcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Earth5R</h3></div>
+                  <div class="desc">River/Lake/Beach Cleanup</div>
+                  <div class="sm">
+                    <a href="https://earth5r.org/" >https://earth5r.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +91 99200 45587</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Mumbai</p>
+                      <p>Across India</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards beachcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Earthlings</h3></div>
+                  <div class="desc">Beach Cleanup</div>
+                  <div class="sm">
+                    <a href="https://www.earthlingsngo.com/">https://www.earthlingsngo.com/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +91 8977780989</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Hyderabad</p>
+                      <p>Hyderabad</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="radio_content radio_3">
+            <div class="container">
+              <div class="cards tutioncard">
+                <div class="cardheader">
+                  <div class="name"><h3>Kat-Katha</h3></div>
+                  <div class="desc">Free Tution</div>
+                  <div class="sm">
+                    <a href="https://www.kat-katha.org/" >https://www.kat-katha.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +011 47503252</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Delhi</p>
+                      <p>Delhi</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards tutioncard">
+                <div class="cardheader">
+                  <div class="name"><h3>Digital Empowerment Foundation</h3></div>
+                  <div class="desc">Free Tution</div>
+                  <div class="sm">
+                    <a href="https://www.defindia.org/" >https://www.defindia.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    011 2653 2786</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Delhi</p>
+                      <p>Across India</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards tutioncard">
+                <div class="cardheader">
+                  <div class="name"><h3>Vigyaan Foundation</h3></div>
+                  <div class="desc">Free tution</div>
+                  <div class="sm">
+                    <a href="https://www.vigyanfoundation.org/">https://www.vigyanfoundation.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    0522-4012879</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Lucknow</p>
+                      <p>Lucknow, Allahabad, Kanpur</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="radio_content radio_4">
+            <div class="container">
+              <div class="cards garbagecard">
+                <div class="cardheader">
+                  <div class="name"><h3>CleanUp</h3></div>
+                  <div class="desc">Garbage Cleanup</div>
+                  <div class="sm">
+                    <a href="http://clean-up.in/">http://clean-up.in/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +91 22 61162004</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Mumbai</p>
+                      <p>Mumbai</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards garbagecard">
+                <div class="cardheader">
+                  <div class="name"><h3>Earth5R</h3></div>
+                  <div class="desc">Garbage Cleanup</div>
+                  <div class="sm">
+                    <a href="https://earth5r.org/">https://earth5r.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +91 99200 45587</div>
+
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Mumbai</p>
+                      <p>Across India</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards garbagecard">
+                <div class="cardheader">
+                  <div class="name"><h3>Saahas</h3></div>
+                  <div class="desc">Garbage Cleanup</div>
+                  <div class="sm">
+                    <a href="https://www.saahas.org/">https://www.saahas.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    080-41689889</div>
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Bangalore</p>
+                      <p>Across India</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="radio_content radio_5">
+            <div class="container">
+              <div class="cards Healthcard">
+                <div class="cardheader">
+                  <div class="name"><h3>SaveLIFE Foundation</h3></div>
+                  <div class="desc">Health Care</div>
+                  <div class="sm">
+                    <a href="https://savelifefoundation.org/">https://savelifefoundation.org/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +91 11410 91911, +91 11410 91910</div>
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Across India</p>
+                      <p>Across India</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards Healthcard">
+                <div class="cardheader">
+                  <div class="name"><h3>Tarshi</h3></div>
+                  <div class="desc">Health Care</div>
+                  <div class="sm">
+                    <a href="https://www.tarshi.net/" >https://www.tarshi.net/</a>
+                  </div>
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                     91-11-26324023/24/25</div>
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Delhi</p>
+                      <p>Delhi</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+              <div class="cards Healthcard">
+                <div class="cardheader">
+                  <div class="name"><h3>aarth India</h3></div>
+                  <div class="desc">Health Care</div>
+                  <div class="sm">
+                    <a href="http://www.aarthindia.org/" >http://www.aarthindia.org/</a>
+                  </div>
+
+                  <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +91-33-2426 7481</div>
+                </div>
+                <div class="cardfooter">
+                  <div class="cardcontent">
+                    <div class="itemleft">
+                      <p>City</p>
+                      <p>Delivers in</p>
+                    </div>
+                    <div class="itemsright">
+                      <p>Kolkata</p>
+                      <p>Kolkata</p>
+                    </div>
+                  </div>
+                  <div class="verifiedbtn">Verified</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+  	 <div class="cont">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Servicio</h4>
+  	 			<ul>
+  	 				<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+  	 				<li><a href="services.html">Services</a></li>
+  	 				<li><a href="contact.html">Contact Us</a></li>
+  	 				<li><a href="donate.html">Donate</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Our Services</h4>
+  	 			<ul>
+  	 				<li><a href="services.html">Food Providers</a></li>
+  	 				<li><a href="services.html">Garbage Cleanup</a></li>
+  	 				<li><a href="services.html">River/Lake Cleanup</a></li>
+  	 				<li><a href="services.html">Free Tution</a></li>
+  	 				<li><a href="services.html">Healthcare</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Areas of Service</h4>
+  	 			<ul>
+  	 				<li><a href="#">Aligarh</a></li>
+  	 				<li><a href="#">Delhi</a></li>
+  	 				<li><a href="#">Firozabad</a></li>
+  	 				<li><a href="#">Lucknow</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 	  	<div class="social-links">
+  	 				<a href="https://www.facebook.com/Servicio-101300235880180"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/Servici29628754"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/servicio_group/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/company/serviciogroup"><i class="fab fa-linkedin-in"></i></a>
+  	 	  	</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+  </body>
+</html>
